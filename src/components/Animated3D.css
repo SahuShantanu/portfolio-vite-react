@@ -1,0 +1,28 @@
+.animated-3d-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.animated-3d-container canvas {
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(97,218,251,0.15);
+}
+
+@media (max-width: 900px) {
+  .animated-3d-container {
+    margin: 1rem 0;
+  }
+  .animated-3d-container canvas {
+    width: 220px !important;
+    height: 220px !important;
+  }
+}
+@media (max-width: 600px) {
+  .animated-3d-container canvas {
+    width: 140px !important;
+    height: 140px !important;
+  }
+}

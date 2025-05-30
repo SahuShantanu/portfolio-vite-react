@@ -1,0 +1,49 @@
+.about-section {
+  max-width: 700px;
+  margin: 3rem auto 2rem auto;
+  padding: 2rem;
+  background: rgba(36, 36, 36, 0.97);
+  border-radius: 18px;
+  box-shadow: 0 4px 32px rgba(97,218,251,0.10);
+  text-align: center;
+}
+
+.about-section h2 {
+  color: #61dafb;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-content {
+  color: #eee;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 700px) {
+  .about-section {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  .about-section h2 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 600px) {
+  .about-section {
+    padding: 1rem;
+  }
+  .about-section h2 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  .about-section {
+    padding: 0.5rem;
+    font-size: 0.95rem;
+  }
+  .about-section h2 {
+    font-size: 1.2rem;
+  }
+}
