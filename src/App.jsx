@@ -29,7 +29,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <Router>
+    <Router basename="/portfolio-vite-react">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -39,7 +39,7 @@ function App() {
       </Routes>
       <Footer />
     </Router>
-  )
+  );
 }
 
 export default App
